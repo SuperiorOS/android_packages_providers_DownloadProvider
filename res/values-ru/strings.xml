@@ -16,17 +16,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the name of the Download Manager application. -->
+    <string name="app_label">Менеджер загрузок</string>
     <!-- Short description shown client applications describing storage location-->
+    <string name="storage_description">Загрузки</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
+    <string name="permlab_downloadManager">Доступ к менеджеру загрузки.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
+    <string name="permdesc_downloadManager">Приложение сможет
+        получать доступ к менеджеру загрузки и использовать его для загрузки файлов.
+        Вредоносные приложения могут использовать это для нарушения загрузки и доступа 
+        к приватной информации.</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
@@ -34,6 +41,8 @@
         dangerous) features from the Download Manager that are needed by
         system applications but aren't necessary for regular applications
         that just initiate plain downloads. -->
+    <string name="permlab_downloadManagerAdvanced">Расширенная загрузка
+        функций менеджера.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
@@ -41,42 +50,74 @@
         dangerous) features from the Download Manager that are needed by
         system applications but aren't necessary for regular applications
         that just initiate plain downloads. -->
+    <string name="permdesc_downloadManagerAdvanced">Приложение сможет
+        получать доступ к менеджеру загрузки и использовать его для загрузки файлов.
+        Вредоносные приложения могут использовать это для нарушения загрузки и доступа 
+        к приватной информации.</string>
+    <string name="permlab_downloadCompletedIntent">Отправить уведомления 
+        о загрузке.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission allows an application to tell other
         applications that their downloads have completed. -->
+    <string name="permdesc_downloadCompletedIntent">Позволяет приложению
+        отправлять уведомления о завершенных загрузках. Вредоносные программы
+        могут использовать это, чтобы запутать другие приложения, которые загружают
+        файлы.</string>
     <!-- Title for permission to see all downloads to EXTERNAL [CHAR LIMIT=25] -->
+    <string name="permlab_seeAllExternal" product="nosdcard">Ппосмотреть все загрузки на USB накопителе</string>
     <!-- Title for permission to see all downloads to EXTERNAL -->
+    <string name="permlab_seeAllExternal" product="default">Посмотреть все загрузки на SD-карте</string>
     <!-- Description for the permission to see all downloads to EXTERNAL -->
+    <string name="permdesc_seeAllExternal">Приложение сможет видеть все
+        загрузки на SD-карту, независимо от того, какое приложение
+        их загрузило.</string>
     <!-- The label for the permission to download files to the download cache
     that can't be automatically deleted by the download manager to free up
     space [CHAR LIMIT=50] -->
+    <string name="permlab_downloadCacheNonPurgeable">Резервирование места в
+    кэше загрузки</string>
     <!-- The full sentence description for the permission to download files to
     the download cache that can't be automatically deleted by the download
     manager to free up space [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadCacheNonPurgeable">Позволяет приложению
+     загружать файлы в кэш загрузки, который нельзя удалить автоматически,
+     если диспетчеру загрузки требуется больше места.</string>
     <!-- The label for the permission to download files through the download
     manager without any notification being shown to the user [CHAR LIMIT=50] -->
+    <string name="permlab_downloadWithoutNotification">загрузка файлов без
+        уведомления</string>
     <!-- The full sentence description for the permission to download files
     through the download manager without any notification being shown to the
     user [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadWithoutNotification">Позволяет приложению
+    загружать файлы через менеджер загрузок без
+    уведомления пользователя.</string>
     <!-- The label for the permission to access all downloads in the download
     manager, not just those owned by the calling user [CHAR LIMIT=50] -->
+    <string name="permlab_accessAllDownloads">Доступ ко всем системным
+    загрузкам</string>
     <!-- The full sentence description for the permission to access all
     downloads in the download manager, not just those owned by the calling user
     [CHAR LIMIT=160] -->
+    <string name="permdesc_accessAllDownloads">Приложение может просматривать
+    и изменять все загрузки, инициированные любым приложением в системе.</string>
     <!-- This is the title that is used when displaying the notification
     for a download that doesn't have a title associated with it. -->
+    <string name="download_unknown_title">&lt;Без названия&gt;</string>
     <!-- When a download completes, a notification is displayed, and this
         string is used to indicate that the download successfully completed.
         Note that such a download could have been initiated by a variety of
         applications, including (but not limited to) the browser, an email
         application, a content marketplace. -->
+    <string name="notification_download_complete">Загрузка завершена.</string>
     <!-- When a download completes, a notification is displayed, and this
         string is used to indicate that the download failed.
         Note that such a download could have been initiated by a variety of
         applications, including (but not limited to) the browser, an email
         application, a content marketplace. -->
+    <string name="notification_download_failed">Ошибка загрузки.</string>
     <!-- When a download is paused because it's too large to download over a
         mobile connection, and Wi-Fi is unavailable, this string is displayed in
         the system notification for the running download, beneath the download
@@ -84,35 +125,65 @@
         initiated by a variety of applications, including (but not limited to)
         the browser, an email application, a content marketplace.
         [CHAR LIMIT=24] -->
+    <string name="notification_need_wifi_for_size">Для загрузки файла требуется сеть Wi-Fi.</string>
     <!-- Notification shown when a download has been paused because a user policy
         has blocked network access to applications running in background. [CHAR LIMIT=24] -->
+    <string name="notification_paused_in_background">Пауза в фоновом режиме.</string>
     <!-- Title for dialog when a download exceeds the carrier-specified maximum size of downloads
         over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
         download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
         LIMIT=50] -->
+    <string name="wifi_required_title">Размер файла слишком велик для загрузки с помощью мобильной сети</string>
     <!-- Text for dialog when a download exceeds the carrier-specified maximum size of downloads
         over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
         download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
         LIMIT=200] -->
+    <string name="wifi_required_body">Вы должны использовать сеть Wi-Fi, чтобы завершить эту загрузку
+        объемом <xliff:g id="size" example="12.3KB">%s
+        </xliff:g>. \n\nНажмите <xliff:g id="queue_text" example="Queue">%s
+        </xliff:g>, чтобы начать загрузку при следующем подключении к
+        сети Wi-Fi.</string>
     <!-- Title for dialog when a download exceeds the carrier-specified recommended maximum size of
         downloads over the mobile network, and the user may choose to start the download over mobile
         anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
         LIMIT=50] -->
+    <string name="wifi_recommended_title">Поставить в очередь для загрузки при подключении к Wi-Fi?</string>
     <!-- Text for dialog when a download exceeds the carrier-specified recommended maximum size of
         downloads over the mobile network, and the user may choose to start the download over mobile
         anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
         LIMIT=200] -->
+    <string name="wifi_recommended_body">Загрузка этого файла объемом <xliff:g id="size" example="12.3KB">%s
+        </xliff:g> может сократить срок службы аккумулятора и/или привести
+   к чрезмерному использованию вашей мобильной сети для передачи данных, что может привести к большим затратам в соответствии
+   с тарифом вашего оператора.\n\n
+        Нажмите <xliff:g id="queue_text" example="Queue">%s</xliff:g>, чтобы начать загрузку
+        при следующем подключении к сети Wi-Fi.</string>
     <!-- Text for button to queue a download to start next time Wi-Fi is available [CHAR LIMIT=25]
         -->
+    <string name="button_queue_for_wifi">В очереди</string>
     <!-- Text for button to cancel a download because it's too large to proceed over the mobile
          network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25] -->
+    <string name="button_cancel_download">Отмена</string>
     <!-- Text for button to start a download over the mobile connection now, even though it's over
          the carrier-specified recommended maximum size for downloads over the mobile connection
          [CHAR LIMIT=25] -->
     <string name="button_start_now">Начать сейчас</string>
     <!-- Title summarizing active downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_active">
+        <item quantity="one">1 файл скачивается</item>
+        <item quantity="few"><xliff:g id="number">%d</xliff:g> файлов скачивается</item>
+        <item quantity="many"><xliff:g id="number">%d</xliff:g> файлов скачивается</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> файлов скачивается</item>
+    </plurals>
     <!-- Title summarizing waiting downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_waiting">
+        <item quantity="one">Ожидание 1 файла</item>
+        <item quantity="few">Ожидание <xliff:g id="number">%d</xliff:g> файлов</item>
+        <item quantity="many">Ожидание <xliff:g id="number">%d</xliff:g> файлов</item>
+        <item quantity="other">Ожидание <xliff:g id="number">%d</xliff:g> файлов</item>
+    </plurals>
     <!-- Time remaining until download is complete. [CHAR LIMIT=32] -->
+    <string name="download_remaining">Осталось <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
     <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
          that there is no application on the device that can open the file that was downloaded
          [CHAR LIMIT=200] -->
@@ -129,4 +200,5 @@
          an individual item in the download list.  [CHAR LIMIT=24] -->
     <string name="download_error">Неудачно</string>
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
+    <string name="download_running_percent">В процессе, <xliff:g id="percentage" example="50%">%s</xliff:g></string>
 </resources>

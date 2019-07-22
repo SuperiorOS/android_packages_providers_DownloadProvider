@@ -16,15 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the name of the Download Manager application. -->
-    <string name="app_label">Nedladdningshanterare</string>
     <!-- Short description shown client applications describing storage location-->
-    <string name="storage_description">Nedladdningar</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
-    <string name="permlab_downloadManager">Nerladdningshantering.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
@@ -75,7 +72,6 @@
         Note that such a download could have been initiated by a variety of
         applications, including (but not limited to) the browser, an email
         application, a content marketplace. -->
-    <string name="notification_download_complete">Nedladdning slutförd.</string>
     <!-- When a download completes, a notification is displayed, and this
         string is used to indicate that the download failed.
         Note that such a download could have been initiated by a variety of
@@ -108,32 +104,23 @@
         LIMIT=200] -->
     <!-- Text for button to queue a download to start next time Wi-Fi is available [CHAR LIMIT=25]
         -->
-    <string name="button_queue_for_wifi">Kö</string>
     <!-- Text for button to cancel a download because it's too large to proceed over the mobile
          network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25] -->
-    <string name="button_cancel_download">Avbryt</string>
     <!-- Text for button to start a download over the mobile connection now, even though it's over
          the carrier-specified recommended maximum size for downloads over the mobile connection
          [CHAR LIMIT=25] -->
-    <string name="button_start_now">Starta nu</string>
     <!-- Title summarizing active downloads. [CHAR LIMIT=32] -->
     <!-- Title summarizing waiting downloads. [CHAR LIMIT=32] -->
     <!-- Time remaining until download is complete. [CHAR LIMIT=32] -->
     <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
          that there is no application on the device that can open the file that was downloaded
          [CHAR LIMIT=200] -->
-    <string name="download_no_application_title">Filen kan inte öppnas</string>
     <!-- Label describing Downloads as a storage root [CHAR LIMIT=32] -->
-    <string name="root_downloads">Nedladdningar</string>
     <!-- Status indicating that the download has been queued to start in the future.  Appears for an
          individual item in the download list.  [CHAR LIMIT=24] -->
-    <string name="download_queued">Köad</string>
     <!-- Status indicating that the system is currently downloading the file.  Appears for an
          individual item in the download list.  [CHAR LIMIT=24] -->
-    <string name="download_running">Pågående</string>
     <!-- Status indicating that the download has ended without completing successfully.  Appears for
          an individual item in the download list.  [CHAR LIMIT=24] -->
-    <string name="download_error">Misslyckades</string>
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
-    <string name="download_running_percent">Körs alltid (<xliff:g id="Percentage">%s</xliff:g>)</string>
 </resources>

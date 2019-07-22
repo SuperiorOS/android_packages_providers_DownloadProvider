@@ -54,8 +54,8 @@
         indirme yöneticisinin gelişmiş işlevlerine erişin.
         Kötü amaçlı uygulamalar indirme işlemlerini ve erişimi kesmek için bunu kullanabilir
         özel bilgi.</string>
-    <string name="permlab_downloadCompletedIntent">İndirme gönder
-        bildirimler.</string>
+    <string name="permlab_downloadCompletedIntent">İndirme bildirimleri
+        gönder.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.

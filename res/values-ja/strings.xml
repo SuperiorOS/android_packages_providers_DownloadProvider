@@ -164,5 +164,5 @@
          an individual item in the download list.  [CHAR LIMIT=24] -->
     <string name="download_error">失敗</string>
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
-    <string name="download_running_percent">実行中, <xliff:g id="percentage" example="50%">%s</xliff:g></string>
+    <string name="download_running_percent">実行中、<xliff:g id="percentage" example="50%">%s</xliff:g></string>
 </resources>

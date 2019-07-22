@@ -110,15 +110,8 @@
          the carrier-specified recommended maximum size for downloads over the mobile connection
          [CHAR LIMIT=25] -->
     <!-- Title summarizing active downloads. [CHAR LIMIT=32] -->
-    <plurals name="notif_summary_active">
-        <item quantity="other">Mengunduh 1 file</item>
-    </plurals>
     <!-- Title summarizing waiting downloads. [CHAR LIMIT=32] -->
-    <plurals name="notif_summary_waiting">
-        <item quantity="other">Menunggu 1 file</item>
-    </plurals>
     <!-- Time remaining until download is complete. [CHAR LIMIT=32] -->
-    <string name="download_remaining"><xliff:g id="durasi" example="3 menit">%s</xliff:g> tersisa</string>
     <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
          that there is no application on the device that can open the file that was downloaded
          [CHAR LIMIT=200] -->
