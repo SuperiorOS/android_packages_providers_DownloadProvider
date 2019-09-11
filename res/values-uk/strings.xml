@@ -16,12 +16,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the name of the Download Manager application. -->
+    <string name="app_label">Завантаження</string>
     <!-- Short description shown client applications describing storage location-->
+    <string name="storage_description">Завантаження</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
+    <string name="permlab_downloadManager">Доступ до менеджера завантажень.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
