@@ -16,17 +16,21 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the name of the Download Manager application. -->
+    <string name="app_label">إدارة التنزيل</string>
     <!-- Short description shown client applications describing storage location-->
+    <string name="storage_description">التحميلات</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
+    <string name="permlab_downloadManager">الوصول إلى إدارة التنزيل.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission controls access to the Download Manager by
         applications that initiate downloads. -->
+    <string name="permdesc_downloadManager">السماح للتطبيق بالوصول إلى إدارة التنزيل واستخدامها لتنزيل الملفات. يمكن للتطبيقات الضارة استخدام هذا لتعطيل التنزيلات والدخول إلى المعلومات الخاصة.</string>
     <!-- This is the short description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
@@ -34,6 +38,7 @@
         dangerous) features from the Download Manager that are needed by
         system applications but aren't necessary for regular applications
         that just initiate plain downloads. -->
+    <string name="permlab_downloadManagerAdvanced">وظائف إدارة التنزيل المتقدمة.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
@@ -41,42 +46,59 @@
         dangerous) features from the Download Manager that are needed by
         system applications but aren't necessary for regular applications
         that just initiate plain downloads. -->
+    <string name="permdesc_downloadManagerAdvanced">السماح للتطبيق بالوصول إلى وظائف إدارة التنزيل المتقدمة. يمكن للتطبيقات الضارة استخدام هذا لتعطيل التنزيلات والدخول إلى المعلومات الخاصة.</string>
+    <string name="permlab_downloadCompletedIntent">إرسال اشعارات بالتنزيل.</string>
     <!-- This is the long description of a permission associated with the
         Android Download Manager. It is displayed as part of the description
         of any application that was granted that permission.
         This specific permission allows an application to tell other
         applications that their downloads have completed. -->
+    <string name="permdesc_downloadCompletedIntent">السماح للتطبيق بـ
+      السماح للتطبيق بإرسال اشعارات عن التنزيلات المكتملة. 
+     يمكن للتطبيقات الضارة استخدام هذا لإرباك التطبيقات الأخرى التي تنزل الملفات.</string>
     <!-- Title for permission to see all downloads to EXTERNAL [CHAR LIMIT=25] -->
+    <string name="permlab_seeAllExternal" product="nosdcard">مشاهدة جميع التنزيلات على وحدة تخزين USB</string>
     <!-- Title for permission to see all downloads to EXTERNAL -->
+    <string name="permlab_seeAllExternal" product="default">مشاهدة جميع التنزيلات على بطاقة تخزين SD</string>
     <!-- Description for the permission to see all downloads to EXTERNAL -->
+    <string name="permdesc_seeAllExternal">السماح للتطبيق بمشاهدة جميع التنزيلات على بطاقة SD، بغض النظر عن التطبيق الذي نزلها.</string>
     <!-- The label for the permission to download files to the download cache
     that can't be automatically deleted by the download manager to free up
     space [CHAR LIMIT=50] -->
+    <string name="permlab_downloadCacheNonPurgeable">حجز مساحة في ذاكرة التخزين المؤقت للتنزيل</string>
     <!-- The full sentence description for the permission to download files to
     the download cache that can't be automatically deleted by the download
     manager to free up space [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadCacheNonPurgeable">لسماح للتطبيق بتنزيل الملفات إلى ذاكرة التخزين المؤقت للتنزيل والتي لا يمكن حذفها تلقائيًا عندما تكون إدارة التنزيل في حاجة إلى مساحة أكبر.</string>
     <!-- The label for the permission to download files through the download
     manager without any notification being shown to the user [CHAR LIMIT=50] -->
+    <string name="permlab_downloadWithoutNotification">تنزيل الملفات بدون تنبيه</string>
     <!-- The full sentence description for the permission to download files
     through the download manager without any notification being shown to the
     user [CHAR LIMIT=160] -->
+    <string name="permdesc_downloadWithoutNotification">السماح للتطبيق بتنزيل ملفات من خلال إدارة التنزيل بدون عرض أي اشعارات للمستخدم.</string>
     <!-- The label for the permission to access all downloads in the download
     manager, not just those owned by the calling user [CHAR LIMIT=50] -->
+    <string name="permlab_accessAllDownloads">الوصول إلى جميع تنزيلات النظام</string>
     <!-- The full sentence description for the permission to access all
     downloads in the download manager, not just those owned by the calling user
     [CHAR LIMIT=160] -->
+    <string name="permdesc_accessAllDownloads">السماح للتطبيق بعرض وتعديل جميع التنزيلات الأساسية من خلال أي تطبيق على النظام.</string>
     <!-- This is the title that is used when displaying the notification
     for a download that doesn't have a title associated with it. -->
+    <string name="download_unknown_title">‏&lt;بلا عنوان&gt;</string>
     <!-- When a download completes, a notification is displayed, and this
         string is used to indicate that the download successfully completed.
         Note that such a download could have been initiated by a variety of
         applications, including (but not limited to) the browser, an email
         application, a content marketplace. -->
+    <string name="notification_download_complete">اكتمل التنزيل.</string>
     <!-- When a download completes, a notification is displayed, and this
         string is used to indicate that the download failed.
         Note that such a download could have been initiated by a variety of
         applications, including (but not limited to) the browser, an email
         application, a content marketplace. -->
+    <string name="notification_download_failed">تعذّر التنزيل.</string>
     <!-- When a download is paused because it's too large to download over a
         mobile connection, and Wi-Fi is unavailable, this string is displayed in
         the system notification for the running download, beneath the download
@@ -84,43 +106,83 @@
         initiated by a variety of applications, including (but not limited to)
         the browser, an email application, a content marketplace.
         [CHAR LIMIT=24] -->
+    <string name="notification_need_wifi_for_size">يتطلب حجم التنزيل شبكة Wi-Fi.</string>
     <!-- Notification shown when a download has been paused because a user policy
         has blocked network access to applications running in background. [CHAR LIMIT=24] -->
+    <string name="notification_paused_in_background">تم الإيقاف مؤقتًا في الخلفية.</string>
     <!-- Title for dialog when a download exceeds the carrier-specified maximum size of downloads
         over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
         download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
         LIMIT=50] -->
+    <string name="wifi_required_title">حجم التنزيل كبير جدًا بالنسبة إلى مشغّل الشبكة</string>
     <!-- Text for dialog when a download exceeds the carrier-specified maximum size of downloads
         over the mobile network and Wi-Fi is required.  The user has the choice to either queue the
         download to start next time Wi-Fi is available or cancel the download altogether. [CHAR
         LIMIT=200] -->
+    <string name="wifi_required_body">يجب إستخدام Wi-Fi لإكمال هذا
+        <xliff:g id="size" example="12.3KB">%s
+        </xliff:g> تنزيل. \n\nالمس <xliff:g id="queue_text" example="Queue">%s
+        </xliff:g> لبدء هذا التنزيل في المرة التالية التي تكون فيها متصلاً بشبكة Wi-Fi.</string>
     <!-- Title for dialog when a download exceeds the carrier-specified recommended maximum size of
         downloads over the mobile network, and the user may choose to start the download over mobile
         anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
         LIMIT=50] -->
+    <string name="wifi_recommended_title">هل تريد وضعه في قائمة الانتظار للتنزيل لاحقًا؟</string>
     <!-- Text for dialog when a download exceeds the carrier-specified recommended maximum size of
         downloads over the mobile network, and the user may choose to start the download over mobile
         anyway or to queue for download to start next time a Wi-Fi connection is available [CHAR
         LIMIT=200] -->
+    <string name="wifi_recommended_body">قد يؤدي بدء هذا التنزيل البالغ حجمه <xliff:g id="size" example="12.3KB">%s
+        </xliff:g> الآن الى تقصير عمر البطارية /أو يؤدي إلى
+        الاستخدام المفرط لاتصال بيانات الجوال الخاص بك، والتي يمكن أن تؤدي إلى رسوم من قبل
+        عامل تشغيل الجوال الخاص بك اعتماداً على خطة البيانات الخاصة بك.\n\n
+        المس <xliff:g id="queue_text" example="Queue">%s</xliff:g> لبدء هذا التحميل
+        في المرة التالية التي تكون فيها متصلاً بشبكة Wi-Fi.</string>
     <!-- Text for button to queue a download to start next time Wi-Fi is available [CHAR LIMIT=25]
         -->
+    <string name="button_queue_for_wifi">قائمة الإنتظار</string>
     <!-- Text for button to cancel a download because it's too large to proceed over the mobile
          network and the user does not want to queue it for Wi-Fi [CHAR LIMIT=25] -->
+    <string name="button_cancel_download">إلغاء</string>
     <!-- Text for button to start a download over the mobile connection now, even though it's over
          the carrier-specified recommended maximum size for downloads over the mobile connection
          [CHAR LIMIT=25] -->
+    <string name="button_start_now">البدء الآن</string>
     <!-- Title summarizing active downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_active">
+        <item quantity="zero"><xliff:g id="number">%d</xliff:g> جار تنزيل الملفات</item>
+        <item quantity="one">جار تنزيل ملف 1</item>
+        <item quantity="two"><xliff:g id="number">%d</xliff:g> جار تنزيل الملفات</item>
+        <item quantity="few"><xliff:g id="number">%d</xliff:g> جار تنزيل الملفات</item>
+        <item quantity="many"><xliff:g id="number">%d</xliff:g> جار تنزيل الملفات</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> جار تنزيل الملفات</item>
+    </plurals>
     <!-- Title summarizing waiting downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_waiting">
+        <item quantity="zero"><xliff:g id="number">%d</xliff:g> ملفات متبقية</item>
+        <item quantity="one">1 ملف متبقي</item>
+        <item quantity="two"><xliff:g id="number">%d</xliff:g> ملفات متبقية</item>
+        <item quantity="few"><xliff:g id="number">%d</xliff:g> ملفات متبقية</item>
+        <item quantity="many"><xliff:g id="number">%d</xliff:g> ملفات متبقية</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> ملفات متبقية</item>
+    </plurals>
     <!-- Time remaining until download is complete. [CHAR LIMIT=32] -->
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> مدة المتبقية</string>
     <!-- Text for a toast appearing when a user clicks on a completed download, informing the user
          that there is no application on the device that can open the file that was downloaded
          [CHAR LIMIT=200] -->
+    <string name="download_no_application_title">لايمكن فتح الملف</string>
     <!-- Label describing Downloads as a storage root [CHAR LIMIT=32] -->
+    <string name="root_downloads">التنزيلات</string>
     <!-- Status indicating that the download has been queued to start in the future.  Appears for an
          individual item in the download list.  [CHAR LIMIT=24] -->
+    <string name="download_queued">في قائمة الإنتظار</string>
     <!-- Status indicating that the system is currently downloading the file.  Appears for an
          individual item in the download list.  [CHAR LIMIT=24] -->
+    <string name="download_running">قيد التقدم</string>
     <!-- Status indicating that the download has ended without completing successfully.  Appears for
          an individual item in the download list.  [CHAR LIMIT=24] -->
+    <string name="download_error">غير ناجح</string>
     <!-- Representation of download progress percentage when running. [CHAR LIMIT=24] -->
+    <string name="download_running_percent">قيد التقدم, <xliff:g id="percentage" example="50%">%s</xliff:g></string>
 </resources>
